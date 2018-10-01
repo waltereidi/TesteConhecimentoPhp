@@ -2,7 +2,9 @@
 Criar projeto onde teremos que cadastrar um cliente e ele pode ter mais de um endereço
 Pode ser utilizado o framework de preferencia ou apenas PHP puro
 Criar o banco de dados e anexar o script para criação
-SQL
+
+[SQL]
+
 Cliente	
 nome	varchar(60)
 cpf	varchar(14)
@@ -11,6 +13,9 @@ telefone	varchar(15)
 email	varchar(100)
 senha	varchar(256)
 data_cadastro	datetime(now)
+
+____________________________________________
+
 Cliente Endereço	
 cliente_id	bigint(20)
 titulo	varchar(30)
