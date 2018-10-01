@@ -1,0 +1,29 @@
+1 : Características
+Criar projeto onde teremos que cadastrar um cliente e ele pode ter mais de um endereço
+Pode ser utilizado o framework de preferencia ou apenas PHP puro
+Criar o banco de dados e anexar o script para criação
+SQL
+Cliente	
+nome	varchar(60)
+cpf	varchar(14)
+data_nascimento	date
+telefone	varchar(15)
+email	varchar(100)
+senha	varchar(256)
+data_cadastro	datetime(now)
+Cliente Endereço	
+cliente_id	bigint(20)
+titulo	varchar(30)
+rua	varchar(60)
+numero	varchar(5)
+complemento	varchar(30)
+bairro	varchar(60)
+cidade	varchar(60)
+estado	varchar(2)
+data_cadastro	datetime(now)
+
+___________________________________
+
+Conexão utilizada :::
+
+mysqli_connect("127.0.0.1" , "root" , "");
